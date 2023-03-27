@@ -1,0 +1,113 @@
+body{
+    background-color: #EDF2F4;
+    font-size: 2em;
+  }
+  
+  #startimg{
+    position: absolute;
+    width: 98%;
+    z-index: -10;
+  }
+  
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  #bio{
+    position: fixed;
+    text-align: right;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    z-index: 20;
+  } 
+
+  #container{
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+  }
+  
+  #inner_container{
+    position: absolute;
+    width: 98%;
+    height: 98%;
+  }
+
+  button{
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 1em;
+  }
+  
+  button:hover{
+    transition: 0.05s;
+    transform: rotateZ(-10deg);
+  }
+  
+  .title{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .title a {
+    font-size: 0.8em;
+    color: cornflowerblue;
+  }
+
+  .paragraph{
+    font-size: 0.8em;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+  }
+
+  #collaborationsbutton_container{
+    position: fixed;
+    z-index: 10;
+    width: 100px;
+    height: 50px;
+    bottom: 2%;
+    left: 30%;
+  }
+
+  #memoriesbutton_container{
+    position: fixed;
+    z-index: 10;
+    bottom: 2%;
+    left: 55%;
+  }
+
+  #workbutton_container{
+    position: fixed;
+    z-index: 10;
+    bottom: 2%;
+    left: 3%;
+  }
+ 
+  #collaborationsbutton{
+    width: 100px;
+    height: 52px;
+    background-image: url('./images/collaborationsbutton.png');
+  }
+
+  #memoriesbutton{
+    width: 40px;
+    height: 37px;
+    background-image: url('./images/memoriesbutton.png');
+  }
+
+  #workbutton{
+    width: 110px;
+    height: 35px;
+    background-image: url('./images/workbutton.png');
+  }
+
+ 
