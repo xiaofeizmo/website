@@ -58,13 +58,13 @@ function get_random_collaboration(){
 
 // Memories
 memories_array = [
-  '<img src="./images/memories1.jpg"><div class="title">Porcelain Doll</div>',
-  '<img src="./images/memories2.jpg"><div class="title">Xiangzhou Bay</div>',
-  '<img src="./images/memories3.jpg"><div class="title">Sutra</div>',
-  '<img src="./images/memories4.jpg"><div class="title">Charlie</div>',
-  '<img src="./images/memories5.jpg"><div class="title">Victor</div>',
-  '<img src="./images/memories6.jpg"><div class="title">March 2016</div>',
-  '<img src="./images/memories7.jpg"><div class="title">New Delhi Post</div>',
+  '<img src="./images/memories1.jpg"><div class="title" style="margin-bottom:100px;">Porcelain Doll</div>',
+  '<img src="./images/memories2.jpg"><div class="title" style="margin-bottom:100px;">Xiangzhou Bay</div>',
+  '<img src="./images/memories3.jpg"><div class="title" style="margin-bottom:100px;">Sutra</div>',
+  '<img src="./images/memories4.jpg"><div class="title" style="margin-bottom:100px;">Charlie</div>',
+  '<img src="./images/memories5.jpg"><div class="title" style="margin-bottom:100px;">Victor</div>',
+  '<img src="./images/memories6.jpg"><div class="title" style="margin-bottom:100px;">March 2016</div>',
+  '<img src="./images/memories7.jpg"><div class="title" style="margin-bottom:100px;">New Delhi Post</div>',
 ]
 
 function get_random_memories(){
