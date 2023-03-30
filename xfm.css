@@ -1,38 +1,21 @@
 body{
     background-color: #EDF2F4;
     font-size: 2em;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    padding: 0px;
   }
   
-  #startimg{
-    position: absolute;
-    width: 98%;
-    z-index: -10;
-  }
-  
-  img{
+  #wrapper{
     width: 100%;
-    border-radius: 10px;
+    margin: 0px;
   }
-  
-  #bio{
-    position: fixed;
-    text-align: right;
-    bottom: 20px;
-    right: 20px;
-    width: 200px;
-    z-index: 20;
-  } 
 
-  #container{
-    width: 98%;
-    height: 98%;
-    border-radius: 10px;
-  }
-  
-  #inner_container{
-    position: absolute;
-    width: 98%;
-    height: 98%;
+  #wrapper img{
+    width: 100%;
   }
 
   button{
@@ -42,7 +25,6 @@ body{
     cursor: pointer;
     background-color: transparent;
     background-repeat: no-repeat;
-    font-size: 1em;
   }
   
   button:hover{
@@ -51,63 +33,145 @@ body{
   }
   
   .title{
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: left;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 30%;
+    margin-top: 80px;
   }
 
-  .title a {
-    font-size: 0.8em;
-    color: cornflowerblue;
+  a{
+    text-decoration: none;
+    color:#de7b18;
   }
 
-  .paragraph{
-    font-size: 0.8em;
+  a:hover{
+    color:#ffa64d;
+  }
+
+  #wrapper p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.6em;
     line-height: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    word-wrap: break-word;
+    margin-top: 15px;
+    margin-left: 7%;
+    margin-right: 30%;
     padding-bottom: 100px;
   }
 
-  #collaborationsbutton_container{
+  #work-button{
     position: fixed;
     z-index: 10;
-    width: 100px;
-    height: 50px;
     bottom: 2%;
-    left: 30%;
+    right: 30%;
   }
 
-  #memoriesbutton_container{
-    position: fixed;
-    z-index: 10;
-    bottom: 2%;
-    left: 55%;
-  }
-
-  #workbutton_container{
-    position: fixed;
-    z-index: 10;
-    bottom: 2%;
-    left: 3%;
+  #work-button img{
+    width: 160px;
   }
  
-  #collaborationsbutton{
-    width: 100px;
-    height: 52px;
-    background-image: url('./images/collaborationsbutton.png');
+  #collabs-button{
+    position: fixed;
+    z-index: 10;
+    bottom: 1%;
+    left: 26%;
+    cursor: pointer;
   }
 
-  #memoriesbutton{
-    width: 40px;
-    height: 37px;
-    background-image: url('./images/memoriesbutton.png');
+  #collabs-button img{
+    width: 120px;
   }
 
-  #workbutton{
-    width: 110px;
-    height: 35px;
-    background-image: url('./images/workbutton.png');
+  #memories-button{
+    position: fixed;
+    z-index: 10;
+    bottom: 2%;
+    left: 4%;
+    cursor: pointer;
   }
 
- 
+  #memories-button img{
+    width: 50px;
+  }
+
+  #bio-button{
+    position: fixed;
+    z-index: 10;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    font-size: 0.8em;
+    bottom: 4%;
+    right: 5%;
+  } 
+
+  .ytcontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 600px) { 
+
+    .title{
+      font-size: 1.8em;
+      margin-left: 1%;
+      margin-top: 24px;
+      margin-bottom: 0px;
+    }
+  
+    #wrapper p{
+      font-size: 1.2em;
+      line-height: 1.4em;
+      margin-top: 10px;
+      margin-left: 1%;
+      margin-right: 5%;
+    }
+    
+    #work-button{
+      bottom: 3%;
+      right: 36%;
+    }
+  
+    #work-button img{
+      width: 210px;
+    }
+   
+    #collabs-button{
+      bottom: 2%;
+      left: 18%;
+    }
+  
+    #collabs-button img{
+      width: 180px;
+    }
+  
+    #memories-button{
+      bottom: 2%;
+      left: 3%;
+    }
+  
+    #memories-button img{
+      width: 85px;
+    }
+  
+    #bio-button{
+      font-size: 1.5em;
+      bottom: 3%;
+      right: 5%;
+    } 
+
+  }
