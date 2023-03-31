@@ -66,7 +66,7 @@ memories_array = [
   '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories3.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">pages from a sutra, 1999</div>',
   '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories4.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">Charlie vs Charlie with friends, 2023</div>',
   '<img src="./images/memories5.jpg"><p style="margin-bottom:100px;">mother&#39s Day with Victor, 2021</p>',
-  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories6.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">at night with POND, March 2016</div>',
+  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories6.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">at night with POND, January 2016</div>',
 ]
 
 function get_random_memories(){
