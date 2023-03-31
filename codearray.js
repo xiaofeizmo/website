@@ -61,12 +61,12 @@ function get_random_collaboration(){
 
 // Memories
 memories_array = [
-  '<img src="./images/memories1.jpg"><p style="margin-bottom:100px;">logic class, photo from a classmate, 2007</p>',
   '<img src="./images/memories2.jpg"><p style="margin-bottom:100px;">a view from home, 2017</p>',
   '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories3.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">pages from a sutra, 1999</div>',
-  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories4.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">Charlie vs Charlie with friends, 2023</div>',
-  '<img src="./images/memories5.jpg"><p style="margin-bottom:100px;">mother&#39s Day with Victor, 2021</p>',
-  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories6.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">at night with POND, January 2016</div>',
+  '<img src="./images/memories5.jpg"><p style="margin-bottom:100px;">logic class, photo from a classmate, 2007</p>',
+  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories7.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">Charlie vs Charlie with friends, 2023</div>',
+  '<img src="./images/memories8.jpg"><p style="margin-bottom:100px;">mother&#39s day with Victor, 2021</p>',
+  '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories9.mp4" type="video/mp4" /></video><p style="margin-bottom:100px;">at night with POND, January 2016</div>',
 ]
 
 function get_random_memories(){
