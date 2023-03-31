@@ -9,7 +9,7 @@ const startcode = [
   '<img src="./images/collaborations4.jpg">',
   '<img src="./images/memories2.jpg">',
   '<video autoplay loop muted playsinline style="width:100%;"><source src="./images/memories3.mp4" type="video/mp4" /></video>',
-  '<img src="./images/memories5.jpg">',
+  '<img src="./images/memories8.jpg">',
 ];
 
   // Get a random index
